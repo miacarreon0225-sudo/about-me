@@ -1,0 +1,90 @@
+@keyframes animate{
+  0% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: translateY(15px); 
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  75% {
+    transform: translateY(-8px);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h1:hover{
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.custom-nav {
+  background-color: rgb(251, 166, 200) !important;
+}
+
+.custom-nav .nav-link,
+.custom-nav .navbar-brand h1 {
+  color: #d81b60 !important;
+  border: 1px solid #d81b60 !important; 
+}
+
+/* Hover State for Links */
+.custom-nav .nav-link:hover {
+  color: #ffffff !important;
+  background-color: #d81b60 !important; 
+}
+p {
+  
+  color: #333333;
+  line-height: 1.6; 
+  margin: 20px 0; 
+}
+.myhover:hover {
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+footer{
+  margin-bottom: 30px;
+}
+li{
+  
+  color: #333333;
+  line-height: 1.6; 
+  margin: 20px 0;
+  padding: 5px;
+}
+button:hover, button:active, button:focus {
+  background-color: #d81b60 !important; 
+  color: #ffffff !important;
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+h2:hover {
+  animation-name: zoomIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+}
+h2 {
+  
+  border-color: #d81b60;
+  line-height: 1.6; 
+  margin: 20px 0; 
+}
+img {
+  border: 3px solid #d81b60;
+}
