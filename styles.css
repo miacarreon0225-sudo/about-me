@@ -79,7 +79,7 @@ button:hover, button:active, button:focus {
   animation-iteration-count: infinite;
   
 }
-.meow{
+img.meow{
   display: block;
     margin-left: auto;
     margin-right: auto;
