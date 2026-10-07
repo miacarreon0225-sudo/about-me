@@ -73,7 +73,7 @@ button:hover, button:active, button:focus {
     transform: scale(1);
   }
 }
-h2:hover {
+.meow:hover {
   animation-name: zoomIn;
   animation-duration: 1s;
   animation-iteration-count: infinite;
