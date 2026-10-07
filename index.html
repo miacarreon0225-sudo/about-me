@@ -42,14 +42,14 @@
 <audio id="hover-sound" src="meow.mp3" preload="auto"></audio>
 
 <!-- Image with hover handlers -->
-<h2><img 
+<div class = "meow"><img 
   src="images/meow-haha.png" height="200" width="200"
   alt="Hover image"
   onmouseenter="document.getElementById('hover-sound').play()"
   onmouseleave="
     const audio = document.getElementById('hover-sound');
     audio.pause();
-    audio.currentTime = 0;"></h2>
+    audio.currentTime = 0;"></div>
     </main>
 
     <footer>
