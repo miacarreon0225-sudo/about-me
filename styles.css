@@ -57,6 +57,7 @@ li{
   line-height: 1.6; 
   margin: 20px 0;
   padding: 5px;
+  font-family: Lucida Console", "Courier New", monospace;
 }
 button:hover, button:active, button:focus {
   background-color: #d81b60 !important; 
@@ -87,13 +88,12 @@ h2 {
   border-color: #d81b60;
   line-height: 1.6; 
   margin: 20px 0; 
-  font-family: Lucida Handwriting;
+  font-family: Lucida Console", "Courier New", monospace;
 }
 img {
   border: 3px solid #d81b60;
 }
 body{
-  font-family: Lucida Handwriting;
   display: flex;
 }
 main{
