@@ -30,6 +30,7 @@ h1:hover{
 .custom-nav .navbar-brand h1 {
   color: #d81b60 !important;
   border: 1px solid #d81b60 !important; 
+  display: flex;
 }
 
 /* Hover State for Links */
@@ -94,10 +95,4 @@ h2 {
 }
 img {
   border: 3px solid #d81b60;
-}
-body{
-  display: flex;
-}
-main{
-display: flex;
 }
