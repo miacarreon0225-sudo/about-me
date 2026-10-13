@@ -59,6 +59,7 @@ li{
   margin: 20px 0;
   padding: 5px;
   font-family: "Lucida Console", "Courier New", monospace;
+  color: #d81b60;
 }
 button:hover, button:active, button:focus {
   background-color: #d81b60 !important; 
