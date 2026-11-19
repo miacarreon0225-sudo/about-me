@@ -84,6 +84,7 @@ button:hover, button:active, button:focus {
 }
 .meow{
   text-align: center;
+  postion: fixed;
 }
 h2 {
   
